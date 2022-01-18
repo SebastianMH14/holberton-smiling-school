@@ -243,13 +243,17 @@ section table span {
 
  /* Search filters */
  
-.search-section {
+/* .search-section {
     background-color: var(--morado);
     Width: 1440px !important;
     Height: 138px !important;
-}
+} */
 /* List of result */
 
 .List-result {
     background-color: white;
+}
+
+.List-result h6 {
+    color: var(--morado);
 }
