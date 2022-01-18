@@ -5,6 +5,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif !important;
 }
+ /* =============== homepage ================= */
 
 /* header */
 .bg-img {
@@ -92,7 +93,7 @@ body {
     color : var(--morado) !important;
 }
 
-.tutorials .on {
+.tutorials .on, .on {
     color: var(--morado) !important;
 }
 
@@ -153,4 +154,102 @@ footer {
 footer span::before {
     vertical-align: align-text-top !important;
     color: white !important;
+    font-size: 30px !important;
+}
+
+
+/* =============== pricing page ================= */
+
+.bg-img-pricing{
+    background-image: url(/images/pic_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* main */
+.go-pro {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 75px;
+}
+
+.holberton_school-icon-check {
+    color:#82D24F;
+    width: 28px;
+    height: 28px;
+}
+
+th {
+    font-size: 18px;
+}
+
+section table span {
+    font-size: 30px
+}
+
+ /* FAQ */
+
+ .faq {
+    background-color: white;
+ }
+
+ .faq h1 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 75px;
+    text-align: center;
+
+    color: #071629;
+ }
+
+ .faq h6 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #071629;
+    ;
+ }
+
+ .faq p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(7, 22, 41, 0.501584);
+ }
+
+ /* =============== courses =============== */
+
+ .bg-img-courses {
+    background-image: url(/images/pic_3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+ .bg-img-courses h1 {
+    font-family: Coiny;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+ }
+
+ /* Search filters */
+ 
+.search-section {
+    background-color: var(--morado);
+    Width: 1440px !important;
+    Height: 138px !important;
+}
+/* List of result */
+
+.List-result {
+    background-color: white;
 }
